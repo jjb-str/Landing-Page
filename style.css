@@ -1,0 +1,163 @@
+body {
+    padding: 0;
+    margin: 0px
+}
+
+.text-white {
+    color: #F9FAF8;
+}
+
+.text-offwhite {
+    color: #E5E7EB;
+}
+
+.background-dark {
+    background-color: #1F2937;
+}
+
+.background-grey {
+    background-color: #E5E7EB;
+}
+
+.header {
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.hero {
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.placeholder-img {
+    padding: 50px 100px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-subtext {
+    margin-bottom: 10px;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    padding: 6px 24px;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border:none
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    margin-bottom: 60px;
+}
+
+.info-cards {
+    display: flex;
+    gap: 50px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.info-img {
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+}
+
+.info-subtext {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-credit {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action {
+    padding: 50px 100px;
+
+}
+
+.banner {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.banner-btn {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px 25px;
+    border-color:#F9FAF8;
+    box-shadow: none;
+    outline: none;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 25px;
+    text-align: center;
+}
